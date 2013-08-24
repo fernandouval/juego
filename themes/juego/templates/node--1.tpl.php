@@ -118,7 +118,7 @@
   <?php print render($content['comments']); ?>
     <!-- Arrancamos juego -->
     <div id="100">100</div>
-    <div id="perso1"><img src="../images/perso1.png"/></div>
+    <div id="perso1"><img src="images/perso1.png"/></div>
             
 
 </article><!-- /.node -->
