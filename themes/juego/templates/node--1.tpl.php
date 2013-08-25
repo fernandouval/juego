@@ -112,13 +112,28 @@
     hide($content['links']);
     print render($content);
   ?>
-
+    <!-- Arrancamos juego -->
+    <div id="cards">
+    <div id="card100" class="num" draggable="true" 
+        ondragstart="return dragStart(event)">100</div>
+    <div id="card50" class="num">50</div>
+    <div id="card20" class="num">20</div>
+    <div id="card10" class="num">10</div>
+    <div id="card1" class="num">1</div>
+    </div>
+    <div id="prueba1">
+        <div id="perso1"><img src="
+            <?php print base_path() . drupal_get_path('theme', 'juego'); ?>/images/perso1.png" 
+            ondragenter="return dragEnter(event)" 
+            ondrop="return dragDrop(event)" 
+            ondragover="return dragOver(event)"/></div>
+        <div id="pru1_1_res">
+            <div class="res-inner">20</div>
+        </div>
+    </div>
+    <div id="time"></div>
   <?php print render($content['links']); ?>
 
   <?php print render($content['comments']); ?>
-    <!-- Arrancamos juego -->
-    <div id="100">100</div>
-    <div id="perso1"><img src="images/perso1.png"/></div>
-            
 
 </article><!-- /.node -->

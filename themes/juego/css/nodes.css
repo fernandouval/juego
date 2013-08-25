@@ -74,3 +74,47 @@
 .lt-ie8 .comment-unpublished > * {
   position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
 }
+
+/**CSS para nodos de juego**/
+.num {
+    border: 2px solid black;
+    float: left;
+    margin: 1%;
+    padding: 2%;
+}
+#perso1{
+    float: left;
+    width: 60%;
+}
+#pru1_1_res{
+    float: left;
+    width: 60%;
+    
+}
+.res-inner{
+    border: 1px solid;
+    text-align: center;
+    width: 25%;
+}
+#cards{
+    width: 100%;
+    float: left;
+}
+#card1{
+    background-color: #f25ba3;
+}
+#card10{
+    background-color: yellow;
+}
+#card20{
+    background-color: skyblue;
+}
+#card50{
+    background-color: greenyellow;
+}
+#card100{
+    background-color: red;
+}
+#pru1_1_res{
+    
+}
